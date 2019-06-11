@@ -1,6 +1,6 @@
 {
-  "name": "sentry-expo",
-  "version": "1.13.0",
+  "name": "@lunks/sentry-expo",
+  "version": "1.13.0-normalized",
   "main": "index.js",
   "types": "index.d.ts",
   "license": "MIT",
