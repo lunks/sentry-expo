@@ -101,11 +101,7 @@ function isPublishedExpoUrl(url) {
 }
 
 function normalizeUrl(url) {
-  if (isPublishedExpoUrl(url)) {
-    return `app:///main.${Platform.OS}.bundle`;
-  } else {
-    return url;
-  }
+  return `app:///main.${Platform.OS}.bundle`;
 }
 
 function addContexts(data) {
